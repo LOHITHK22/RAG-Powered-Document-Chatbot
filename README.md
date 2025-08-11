@@ -27,22 +27,22 @@ venv\Scripts\activate
 pip install -r requirements.txt
 
 
-##Start Ollama (local model support)
+##Start Ollama (local model support) :-
 
 ollama serve
 ollama pull mistral
 
-##Run the app
+##Run the app :-
 
 streamlit run app.py
 
 ##Dependencies :-
 
-streamlit
-numpy
-faiss-cpu
-pymupdf
-sentence-transformers
+streamlit,
+numpy,
+faiss-cpu,
+pymupdf,
+sentence-transformers,
 requests
 
 License
